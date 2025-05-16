@@ -111,11 +111,13 @@
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "nombre": "diego cornejo",
-    "edad": 9,
+    "edad": 8,
     "materias": [
       "matematicas",
+      "programacion",
+      "historia",
       "geografia",
       "ingles"
     ]

@@ -1,5 +1,5 @@
 const getAll = async () => {
-  const response = await fetch('http://localhost:3000/students');
+  const response = await fetch('/students');
   if (!response.ok) {
     throw new Error('Network response was not ok');
   }
@@ -51,7 +51,7 @@ function createStudent(id, name, age, subjects) {
 
   elBtn.addEventListener('click', () => {
     stc.remove();
-    fetch(`http://localhost:3000/students/${id}`, {
+    fetch(`/students/${id}`, {
       method: 'DELETE',
     })
     .then((response) => response.json())
@@ -147,7 +147,7 @@ document.getElementById('modificar').addEventListener('click', (e) => {
   if(name === "" || age === "" || subjects.length === 0){
     alert("Por favor, completa todos los campos.");
   }else{
-    fetch(`http://localhost:3000/students/${id}`, {
+    fetch(`/students/${id}`, {
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json',

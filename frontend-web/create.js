@@ -60,7 +60,7 @@ document.getElementById("enviar").addEventListener("click",(e)=>{
     alert("Por favor, completa todos los campos.");
   }else{
     e.preventDefault();
-    fetch("http://localhost:3000/students", {
+    fetch("/students", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
