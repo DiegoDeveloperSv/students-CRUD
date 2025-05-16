@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "nombre": "Diego Alexander",
+    "edad": 15,
+    "materias": [
+      "geografia",
+      "historia",
+      "programacion"
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Miguel Angel Guti",
+    "edad": 20,
+    "materias": [
+      "matematicas",
+      "programacion",
+      "historia"
+    ]
+  },
+  {
+    "id": 5,
+    "nombre": "Miguel Dominguez",
+    "edad": 16,
+    "materias": [
+      "matematicas",
+      "programacion",
+      "historia",
+      "geografia",
+      "ingles"
+    ]
+  },
+  {
+    "id": 6,
+    "nombre": "Daisy Sofia Menjivar",
+    "edad": 17,
+    "materias": [
+      "matematicas",
+      "geografia"
+    ]
+  },
+  {
+    "id": 7,
+    "nombre": "Nayib Bukele",
+    "edad": 17,
+    "materias": [
+      "matematicas",
+      "historia",
+      "geografia"
+    ]
+  },
+  {
+    "id": 8,
+    "nombre": "hachi vladimir",
+    "edad": 16,
+    "materias": [
+      "matematicas",
+      "programacion",
+      "historia"
+    ]
+  },
+  {
+    "id": 9,
+    "nombre": "Arnoldo Jose",
+    "edad": 20,
+    "materias": [
+      "programacion",
+      "matematicas",
+      "historia",
+      "geografia",
+      "ingles"
+    ]
+  },
+  {
+    "id": 10,
+    "nombre": "Cristiano Ronaldo",
+    "edad": 18,
+    "materias": [
+      "matematicas",
+      "historia",
+      "ingles"
+    ]
+  },
+  {
+    "id": 11,
+    "nombre": "Jonathan Vladimir",
+    "edad": 17,
+    "materias": [
+      "matematicas",
+      "programacion",
+      "historia"
+    ]
+  },
+  {
+    "id": 13,
+    "nombre": "jose jose",
+    "edad": 8,
+    "materias": [
+      "matematicas",
+      "programacion"
+    ]
+  },
+  {
+    "id": 14,
+    "nombre": "jacinto",
+    "edad": 8,
+    "materias": [
+      "matematicas",
+      "programacion"
+    ]
+  },
+  {
+    "id": 15,
+    "nombre": "diego cornejo",
+    "edad": 9,
+    "materias": [
+      "matematicas",
+      "geografia",
+      "ingles"
+    ]
+  }
+]

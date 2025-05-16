@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="students.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="header-nav">
+      <ul class="header-nav-list">
+        <li class="header-nav-item"><a href="create.html">CREATE</a></li>
+        <li class="header-nav-item"><a href="#">ABOUT</a></li>
+      </ul>
+    </nav>    
+  </header>
+  
+  <h1>Students List</h1>
+  <div class="students"></div>
+  <div class="form-page">
+    <div class="modify">
+    <h2>Modify Student</h2>
+    <form id="modify-form">
+      <input type="hidden" id="student-id">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age" required>
+      <div id="materias">
+      <button id="matematicas">Matematicas</button>
+      <button id="programacion">Programacion</button>
+      <button id="historia">Historia</button>
+      <button id="geografia">Geografia</button>
+      <button id="ingles">Ingles</button>
+    </div>
+    <div class="elegidas"></div>
+    <button type="submit" id="modificar">Update</button>
+    <button id="close">X</button>
+    </form>
+  </div>
+  </div>
+  <script src="students.js"></script>
+</body>
+</html>

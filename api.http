@@ -1,0 +1,30 @@
+GET http://localhost:3000/students
+###
+POST http://localhost:3000/students
+Content-Type: application/json
+
+{
+  "nombre": "Miguel",
+  "edad": 20,
+  "materias":[
+    "matematicas",
+    "historia"
+  ]
+}
+###
+DELETE http://localhost:3000/students/2
+###
+
+PUT http://localhost:3000/students/1
+Content-Type: application/json
+
+{
+  "materias":[
+    "geografia",
+    "historia",
+    "programacion"
+  ]
+}
+###
+
+GET http://localhost:3000/students/2
